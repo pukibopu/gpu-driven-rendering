@@ -1,0 +1,2427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: test
+  m_EditorClassIdentifier: Assembly-CSharp:GPUInstance:SceneDataAsset
+  gameObjectDataList:
+  - name: Pipes_set_v1_vent_2 (5)
+    position: {x: -5.4200006, y: 4.38, z: -22.69}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Wooden_box_v1_LD1square (1)
+    position: {x: -10.845999, y: 2.7059994, z: -23.36}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 33.127, y: 2.893999, z: -24.808235}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 33.126, y: 3.400999, z: -24.807236}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Pipes_set_v1_H_set_v1
+    position: {x: 77.64301, y: 4.63, z: -21.64259}
+    rotation: {x: -0, y: -0.6445785, z: -0, w: 0.7645381}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300040, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Road_set_v1_b_floor (6)
+    position: {x: 50.00073, y: 2.0916195, z: 14.997574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Barrel_v2_quadro
+    position: {x: 5.1, y: 2.1727867, z: -37.02}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: cd2f24c07b1bce24fa0066430da2910b, type: 2}
+    mesh: {fileID: 4300004, guid: 3693ef6778a2a2942b1a7b3f2e10c297, type: 3}
+  - name: Wooden_box_v1_LD1square (1)
+    position: {x: 5.0358834, y: 2.034315, z: -40.942562}
+    rotation: {x: -0, y: 0.20134453, z: -0, w: 0.97952056}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Pipes_set_v1_vent_1 (6)
+    position: {x: 32.46, y: 8.24, z: -14.54}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Electric_box_v1
+    position: {x: 42.926, y: 2.3463154, z: -0.47000027}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 7929421cb15ed0c4f873c3a43793a4e1, type: 2}
+    mesh: {fileID: 4300002, guid: a06f542e25b97724c9866dff7870460c, type: 3}
+  - name: Road_block_v1 (6)
+    position: {x: -9.924269, y: 0.6278572, z: 3.9725742}
+    rotation: {x: -0, y: 0.24953414, z: -0, w: 0.968366}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Conditioner_v1 (2)
+    position: {x: 6.0014143, y: 8.415726, z: -31.508236}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: -13.014269, y: 2.9006195, z: -17.053427}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: -13.013269, y: 3.4076195, z: -17.052425}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Hangar_v4 (5)
+    position: {x: 94.82241, y: 8.532726, z: 6.1717644}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Palet_v1_set (1)
+    position: {x: 59.045155, y: 2.6324348, z: -39.60309}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (4)
+    position: {x: 18.52, y: 3.2670002, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Pipes_set_v1_vent_1 (2)
+    position: {x: 25.45, y: 12.624, z: -56.592}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Pipes_set_v1_V_set_v2 (6)
+    position: {x: 3.77, y: 2.8599987, z: 16.18}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: UNIConcrete_wall_v1_S_R_2f
+    position: {x: 5.000731, y: 1.6286201, z: -10.222426}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300072, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: UNIConcrete_wall_v1_S_R_2
+    position: {x: 9.142595, y: 0.9276352, z: -10.222386}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300060, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_b_floor (14)
+    position: {x: 90.00131, y: 2.091526, z: -55.09824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Pipes_set_v1_H_set_v2
+    position: {x: 33.227734, y: 4.14962, z: -18.491426}
+    rotation: {x: -0, y: -0.043676, z: -0, w: 0.9990458}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300042, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v2_lattice_S_half
+    position: {x: 78.50973, y: 3.3896198, z: 21.999577}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300030, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_S_half
+    position: {x: 78.50973, y: 2.8936195, z: 21.985577}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300028, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Oil_tank_v2 (11)
+    position: {x: 94.17241, y: 4.6657257, z: -16.378235}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 74.458725, y: 3.3446198, z: -52.46043}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 74.457726, y: 3.8516197, z: -52.45943}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 44.467, y: 2.893999, z: -24.808235}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 44.466, y: 3.400999, z: -24.807236}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Hangar_v3_basic (2)
+    position: {x: -12.987585, y: 6.255726, z: -40.848236}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 04217182e1d62cf478028b88bd3f911d, type: 2}
+    mesh: {fileID: 4300006, guid: 165b285d8813c4b459ac04e83c94db1b, type: 3}
+  - name: Road_set_v1_s_tile_2 (3)
+    position: {x: 70.000725, y: 1.9996204, z: -0.0014266968}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Palet_v1_single
+    position: {x: 46.762417, y: 2.1999073, z: 8.421764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_b_floor (5)
+    position: {x: 70.000725, y: 2.0916195, z: 14.997574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Cargo_container_v1_LD2close (9)
+    position: {x: 49.157734, y: 6.58562, z: -44.051426}
+    rotation: {x: -0, y: -0.69645625, z: -0, w: 0.7175993}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Concrete_fence_v1_column (2)
+    position: {x: 41.135, y: 3.740387, z: 9.461763}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v1
+    position: {x: 23.91, y: 4.84, z: -43.59}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Barrel_v3_single
+    position: {x: 42.297, y: 2.5690975, z: 8.221764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300004, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Pipes_set_v1_tile_d2 (1)
+    position: {x: 34.45773, y: 6.18262, z: -32.19143}
+    rotation: {x: -0.5213608, y: 0.5213608, z: 0.47768492, w: -0.47768492}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300018, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Cargo_container_v1_LD2close (1)
+    position: {x: 79.46773, y: 3.591527, z: -9.751427}
+    rotation: {x: -0, y: 0.7086525, z: -0, w: 0.70555776}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Oil_tank_v2 (2)
+    position: {x: 45.03, y: 4.2299995, z: -20.22}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Pipes_set_v1_H_set_v2 (3)
+    position: {x: 86.67876, y: 4.6296206, z: -23.192688}
+    rotation: {x: -0, y: -0.6445785, z: -0, w: 0.7645381}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300042, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Pipes_set_v1_vent_1 (1)
+    position: {x: -3.2799993, y: 11.26, z: -27.23}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Palet_v1_set (9)
+    position: {x: -17.682268, y: 0.6206207, z: 16.178574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000007, y: 1.0000006, z: 1.0000005}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1square (25)
+    position: {x: 90.58773, y: 3.158, z: -51.161427}
+    rotation: {x: -0, y: -0.35679278, z: -0, w: 0.93418354}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Conditioner_v1 (1)
+    position: {x: 19.576414, y: 5.545726, z: -10.366236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Palet_v1_set (2)
+    position: {x: -4.7375855, y: 2.1667252, z: -20.721237}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Palet_v1_set (11)
+    position: {x: 87.27773, y: 2.632433, z: -51.261425}
+    rotation: {x: -0, y: -0.14369318, z: -0, w: 0.9896223}
+    scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Conditioner_v1
+    position: {x: 71.506004, y: 8.237, z: 23.346996}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Wooden_box_v1_LD1square (20)
+    position: {x: -26.06227, y: 0.49761963, z: 4.058573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Hangar_v4 (1)
+    position: {x: 31.602413, y: 6.5257263, z: 16.041763}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Cargo_container_v1_LD2close (4)
+    position: {x: -13.91, y: 6.1280003, z: -9.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Hangar_v2_basic (2)
+    position: {x: 31.268414, y: 8.099726, z: -61.468235}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Road_set_v1_s_tile_1
+    position: {x: 45.00073, y: 1.9996204, z: -30.000427}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300078, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Hangar_v4 (6)
+    position: {x: 92.63241, y: 8.03, z: -33.018234}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Pipes_set_v1_vent_1 (8)
+    position: {x: 51.26, y: 10.41, z: 12.67}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Oil_tank_v2
+    position: {x: 47.250004, y: 4.2299995, z: -22.4}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Hangar_v4 (4)
+    position: {x: -34.697582, y: 6.5357256, z: -22.978237}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Wooden_box_v1_LD1square (13)
+    position: {x: 25.912703, y: 2.0341148, z: -10.140981}
+    rotation: {x: -0, y: -0.18971047, z: -0, w: 0.98184013}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Pipes_set_v1_V_set_v2 (2)
+    position: {x: 73.69, y: 4.92, z: -38.281}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Wooden_box_v1_LD1square (6)
+    position: {x: 49.215733, y: 2.0341415, z: 4.092573}
+    rotation: {x: -0, y: -0.085467555, z: -0, w: 0.99634093}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 50.147, y: 2.893999, z: -2.1182356}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 50.146, y: 3.400999, z: -2.119236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_tile_2 (4)
+    position: {x: 85.00073, y: 1.9996204, z: 14.997574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1f
+    position: {x: 55.00073, y: 2.0916195, z: -30.001427}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300124, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1
+    position: {x: 55.00073, y: 1.9996204, z: -30.001427}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300122, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1
+    position: {x: 58.828663, y: 2.4272175, z: -50.49721}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Pipes_set_v1_V_set_v2 (5)
+    position: {x: -9.309999, y: 2.8599987, z: 16.18}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Electric_box_v3
+    position: {x: 47.82494, y: 2.6960125, z: -16.92}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 84eeb742ea1c3a54599c3f405e69cbd3, type: 2}
+    mesh: {fileID: 4300002, guid: 6873b944fa309e04a9c369d12ad5592d, type: 3}
+  - name: UNIConcrete_wall_v1_S_R_2f
+    position: {x: 25.222733, y: 1.6276207, z: -19.999428}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300072, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: UNIConcrete_wall_v1_S_R_2
+    position: {x: 21.080868, y: 0.92663574, z: -19.999466}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300060, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Wooden_box_v1_LD1square (14)
+    position: {x: 19.418732, y: 0.49761963, z: 2.778574}
+    rotation: {x: -0, y: 0.6097216, z: -0, w: 0.7926157}
+    scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 50.147, y: 2.893999, z: -19.138237}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 50.146, y: 3.400999, z: -19.139236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_tile_2 (2)
+    position: {x: 55.00073, y: 1.9996204, z: -15.001427}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 68.78673, y: 3.3446198, z: -52.46043}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 68.78573, y: 3.8516197, z: -52.45943}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Wooden_box_v1_LD1square (4)
+    position: {x: -11.997, y: 2.0344162, z: -21.742}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Pipes_set_v1_vent_2 (6)
+    position: {x: 22.955, y: 8.465, z: 4.1590004}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Generator_v1
+    position: {x: 68.7, y: 2.9650707, z: 18.83}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 381346ab5f747d8468f1a25ceb5ee3ef, type: 2}
+    mesh: {fileID: 4300002, guid: c562f093a8293a149afd50618b46c18d, type: 3}
+  - name: Pipes_set_v1_vent_2
+    position: {x: 3.0120006, y: 5.14487, z: -20.901154}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Road_set_v1_road_up_2m_HD_f
+    position: {x: 30.0007, y: 1.0914001, z: -40.000397}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300102, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_road_up_2m_HD
+    position: {x: 30.0004, y: 0.99970055, z: -30.0001}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300082, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 64.7524, y: 2.7957249, z: -33.30688}
+    rotation: {x: -0, y: 0.07517208, z: -0, w: 0.9971706}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Road_set_v1_b_floor (12)
+    position: {x: 90.00131, y: 2.091526, z: -15.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: -26.052267, y: 1.373621, z: 5.1945744}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: -26.053267, y: 1.880621, z: 5.195574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Barrel_v1_LD1 (3)
+    position: {x: 12.1, y: 2.1433125, z: -44.37}
+    rotation: {x: -0, y: -0.8981274, z: -0, w: 0.43973544}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: db7eb35339cc6e249a3b76684d621373, type: 2}
+    mesh: {fileID: 4300010, guid: ffd14148582c4f84f867ad56a7b3dafd, type: 3}
+  - name: Oil_tank_v2 (8)
+    position: {x: 94.17241, y: 4.6657257, z: -8.468236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Road_set_v1_s_bend_1f
+    position: {x: 15.0007305, y: 0.09161949, z: -0.00042629242}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300124, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1
+    position: {x: 15.0007305, y: -0.00037956238, z: -0.00042629242}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300122, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Barrel_v2_quadro (1)
+    position: {x: 12.830435, y: 2.3700008, z: -50.199917}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: cd2f24c07b1bce24fa0066430da2910b, type: 2}
+    mesh: {fileID: 4300004, guid: 3693ef6778a2a2942b1a7b3f2e10c297, type: 3}
+  - name: Hangar_v1_full (2)
+    position: {x: -22.272268, y: 2.5556202, z: 18.928572}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: aca7f32c011a3e44cb877ccaa92fa086, type: 2}
+    mesh: {fileID: 4300004, guid: 45fb212df42587744bd168b5d46c0910, type: 3}
+  - name: Road_block_v1
+    position: {x: 74.21, y: 2.444189, z: 2.1499996}
+    rotation: {x: -0, y: -0.700896, z: -0, w: 0.71326345}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (10)
+    position: {x: -29.15, y: 1.7299995, z: -61.688236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (3)
+    position: {x: -1.564754, y: 2.034315, z: -11.293644}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 46.74242, y: 2.7849998, z: 8.431765}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (3)
+    position: {x: 27.82, y: 3.2670002, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: 90.05941, y: 3.852726, z: -51.050236}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: 90.19241, y: 3.3447256, z: -51.177235}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2
+    position: {x: 60.066006, y: 3.7399998, z: -13.83}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Road_set_v1_s_floor (3)
+    position: {x: 25.0004, y: 0.09160042, z: -20.0002}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Pipes_set_v1_V_set_v2
+    position: {x: 19.48, y: 4.4400005, z: -40.01}
+    rotation: {x: -0, y: 0.38623595, z: -0, w: 0.92240006}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Industrial_pipe_v1 (1)
+    position: {x: -35.609997, y: 7.7675056, z: -49.390003}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8290c716c91fee74faa2bd2490e059a5, type: 2}
+    mesh: {fileID: 4300002, guid: 5ffcfebba4a61b645bd4a65891ba6921, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (1)
+    position: {x: 46.45, y: 3.4899998, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 13.647732, y: 1.3739986, z: 5.1949997}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 13.64673, y: 1.8809986, z: 5.195999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Pipes_set_v1_vent_1 (3)
+    position: {x: 34.43, y: 12.624, z: -56.592}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 2.3077312, y: 1.3739986, z: 5.1949997}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 2.3067307, y: 1.8809986, z: 5.195999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S_half
+    position: {x: 50.147, y: 3.3899994, z: 2.1499996}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300030, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_S_half
+    position: {x: 50.147, y: 2.893999, z: 2.1359997}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300028, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Hangar_v4 (8)
+    position: {x: -7.6975846, y: 6.5257263, z: 42.091763}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Wooden_box_v1_LD1 (6)
+    position: {x: 90.37773, y: 2.4272175, z: -50.871426}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1square (10)
+    position: {x: 28.471, y: 2.0341415, z: -23.96}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1 (1)
+    position: {x: 75.934, y: 2.4272175, z: -7.374}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_set (5)
+    position: {x: 21.628546, y: 2.1688309, z: 3.2391071}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Pipes_set_v1_vent_2 (3)
+    position: {x: 47.460003, y: 9.248, z: -54.524}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Conditioner_v1 (4)
+    position: {x: 60.060413, y: 9.165726, z: -11.848236}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Road_set_v1_s_floor (5)
+    position: {x: 45.22273, y: 1.6280003, z: -9.9999}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Palet_v1_set (5)
+    position: {x: 53.36574, y: 2.6326332, z: 19.294363}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Barrel_v1_LD1 (2)
+    position: {x: 5.175065, y: 2.1433125, z: -39.514126}
+    rotation: {x: -0, y: -0.8981274, z: -0, w: 0.43973544}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: db7eb35339cc6e249a3b76684d621373, type: 2}
+    mesh: {fileID: 4300010, guid: ffd14148582c4f84f867ad56a7b3dafd, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (5)
+    position: {x: 9.210001, y: 3.2670002, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (12)
+    position: {x: 19.812414, y: 1.7397251, z: -35.10724}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Palet_v1_set (3)
+    position: {x: 64.85587, y: 2.632433, z: 16.876925}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_b_floor (7)
+    position: {x: -19.999586, y: 0.0917263, z: 14.9997635}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 85.80373, y: 3.3446198, z: -52.46043}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 85.80273, y: 3.8516197, z: -52.45943}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (11)
+    position: {x: 97.28241, y: 3.7399998, z: -14.708236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Palet_v1_single (4)
+    position: {x: 62.922413, y: 2.2107258, z: -33.317238}
+    rotation: {x: -0, y: -0.72028327, z: -0, w: 0.6936801}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Palet_v1_single (3)
+    position: {x: 61.320415, y: 2.2107258, z: -33.317238}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Conditioner_v1 (6)
+    position: {x: 60.060413, y: 9.165726, z: -30.138235}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Concrete_fence_v1_column (1)
+    position: {x: 41.135, y: 3.740387, z: 4.821764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Road_set_v1_b_floor (4)
+    position: {x: 50.001316, y: 2.091526, z: -45.000034}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 80.13123, y: 3.3446198, z: -52.46043}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 80.13023, y: 3.8516197, z: -52.45943}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Wooden_box_v1_LD1square (21)
+    position: {x: -27.592268, y: 1.1576195, z: 3.948574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000002, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Pipes_set_v1_tile_d2
+    position: {x: 34.05773, y: 6.18262, z: -27.621426}
+    rotation: {x: -0.5213608, y: 0.5213608, z: 0.47768492, w: -0.47768492}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300018, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Hangar_v4
+    position: {x: 65.81241, y: 8.03, z: -20.908236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Palet_v1_single (7)
+    position: {x: 12.730413, y: 1.7337246, z: -50.33624}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_b_floor (1)
+    position: {x: 20.000414, y: 0.09152603, z: 14.999464}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Palet_v1_set
+    position: {x: 16.399216, y: 2.169033, z: -50.17303}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1square (10)
+    position: {x: 22.278692, y: 2.0341148, z: 1.6448479}
+    rotation: {x: -0, y: -0.10131028, z: -0, w: 0.9948549}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v1_s1 (1)
+    position: {x: 41.147, y: 3.5889597, z: 7.151764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300032, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v2 (7)
+    position: {x: 40.94, y: 4.2299995, z: -22.4}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Concrete_fence_v1_s2
+    position: {x: 60.066006, y: 3.5889997, z: -49.639004}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300034, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (13)
+    position: {x: 38.419415, y: 1.7397251, z: -35.10724}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Cargo_container_v1_LD2close (2)
+    position: {x: 79.61773, y: 6.592, z: -9.411427}
+    rotation: {x: -0, y: 0.7086525, z: -0, w: 0.70555776}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Wooden_box_v1_LD1square (26)
+    position: {x: 90.61773, y: 2.497717, z: -49.181423}
+    rotation: {x: -0, y: 0.20292538, z: -0, w: 0.9791943}
+    scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Road_set_v1_b_floor (9)
+    position: {x: 70.00131, y: 2.091526, z: -55.09824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Cargo_container_v1_LD2close (3)
+    position: {x: -14.279999, y: 6.1280003, z: -12.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Wooden_box_v1_LD1square (6)
+    position: {x: 57.588154, y: 2.497717, z: -51.250927}
+    rotation: {x: -0, y: 0.6116984, z: -0, w: 0.79109114}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1square (15)
+    position: {x: 19.077732, y: 1.1576195, z: 4.2705727}
+    rotation: {x: -0, y: 0.27243358, z: -0, w: 0.9621746}
+    scale: {x: 1, y: 1.0000006, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_set (4)
+    position: {x: 34.9, y: 2.1688595, z: -10.453648}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 38.797, y: 2.893999, z: -24.808235}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 38.796, y: 3.400999, z: -24.807236}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_b_floor (16)
+    position: {x: 90.00131, y: 2.0917263, z: -75.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 72.83673, y: 2.8936195, z: 6.386574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 72.83573, y: 3.4006195, z: 6.3875732}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_tile_2 (6)
+    position: {x: -24.99827, y: -0.00037956238, z: -34.999428}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_b_floor (10)
+    position: {x: 70.00131, y: 2.091526, z: -35.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (5)
+    position: {x: -8.699999, y: 2.0344162, z: -22.14}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Object085
+    position: {x: 26.73706, y: 4.748518, z: -13.14895}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300006, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Object084
+    position: {x: 31.372437, y: 7.3463993, z: -2.3739414}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Palet_v1_single (9)
+    position: {x: 14.577732, y: 1.7337246, z: -49.931423}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: UNIConcrete_wall_v1_W_end_2
+    position: {x: 25.051731, y: 0.9266205, z: -25.170425}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300046, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Oil_tank_v2 (14)
+    position: {x: 23.757732, y: 2.6856194, z: 13.708574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Road_set_v1_s_floor (8)
+    position: {x: 95.00061, y: 2.0916252, z: -0.00013637543}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_Gate_lattice
+    position: {x: 27.446732, y: 3.4016209, z: -19.120426}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300026, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_Gate
+    position: {x: 27.454731, y: 3.2336206, z: -19.135426}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300016, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_tile_1
+    position: {x: -14.998268, y: -0.00037956238, z: -0.00042629242}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300078, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: 35.2225, y: 1.6280003, z: -20}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1
+    position: {x: 55.748005, y: 3.63, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: UNIConcrete_wall_v1_S_middle
+    position: {x: 44.60773, y: 1.3926201, z: 4.703573}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300078, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Oil_tank_v1 (4)
+    position: {x: -3.6299996, y: 3.2600002, z: 16.26}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Hangar_v1_full (1)
+    position: {x: 70.99241, y: 4.6000004, z: 14.591764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: aca7f32c011a3e44cb877ccaa92fa086, type: 2}
+    mesh: {fileID: 4300004, guid: 45fb212df42587744bd168b5d46c0910, type: 3}
+  - name: Road_block_v1 (7)
+    position: {x: 73.97241, y: 2.6247253, z: 4.691765}
+    rotation: {x: -0, y: 0.7717386, z: -0, w: 0.63593996}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Hangar_v4 (7)
+    position: {x: 63.052418, y: 8.532726, z: 49.97176}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Palet_v1_set
+    position: {x: 49.082417, y: 2.6326332, z: 8.471764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Palet_v1_set (4)
+    position: {x: -8.695585, y: 2.1667252, z: -6.010236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: 20.051, y: 0.92700005, z: -9.9996}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: 25.222, y: 1.6280003, z: -9.9996}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (3)
+    position: {x: 88.14, y: 3.67, z: -85}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (4)
+    position: {x: 17.07, y: 1.7329998, z: 25.119}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v2 (5)
+    position: {x: 42.96, y: 4.2299995, z: -20.22}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: 51.563633, y: 3.4020205, z: 4.9797726}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: 51.43063, y: 2.89402, z: 5.1067734}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_column
+    position: {x: 69.57, y: 3.7399998, z: 25.122997}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Industrial_pipe_v1 (5)
+    position: {x: 99.00241, y: 7.7675056, z: 25.491764}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8290c716c91fee74faa2bd2490e059a5, type: 2}
+    mesh: {fileID: 4300002, guid: 5ffcfebba4a61b645bd4a65891ba6921, type: 3}
+  - name: Pipes_set_v1_V_set_v2 (1)
+    position: {x: 32.52, y: 4.46, z: -40.01}
+    rotation: {x: -0, y: 0.32785836, z: -0, w: 0.94472694}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Conditioner_v1 (7)
+    position: {x: 51.073414, y: 7.237726, z: 9.311764}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Hangar_v2_basic
+    position: {x: 17.2, y: 5.8266134, z: 36.499996}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: -3.3642697, y: 1.3739986, z: 5.1945744}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: -3.3652692, y: 1.8809986, z: 5.195574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_floor (4)
+    position: {x: 45.2225, y: 1.6280003, z: -20}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_block_v1 (2)
+    position: {x: 73.66373, y: 2.5480003, z: -2.8999996}
+    rotation: {x: 0.04422971, y: -0.70787644, z: -0.043929566, w: 0.70358}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2
+    position: {x: 50.640003, y: 3.7399998, z: 25.119999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Conditioner_v1
+    position: {x: 28.94, y: 5.564, z: -16.607}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Road_set_v1_s_bend_1f
+    position: {x: 85.00073, y: 2.0916195, z: -0.0024261475}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300124, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1
+    position: {x: 85.00073, y: 1.9996204, z: -0.0024261475}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300122, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_Gate_lattice
+    position: {x: -20.39527, y: 1.8816204, z: 5.186575}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300026, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_Gate
+    position: {x: -20.38027, y: 1.7136211, z: 5.1945744}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300016, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2
+    position: {x: 3.8700004, y: 3.2767887, z: -43.55}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Road_set_v1_s_floor (1)
+    position: {x: 35.2225, y: 1.6280003, z: -10}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Pipes_set_v1_H_set_v2 (1)
+    position: {x: 33.62773, y: 4.14962, z: -23.061426}
+    rotation: {x: -0, y: -0.043676, z: -0, w: 0.9990458}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300042, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (7)
+    position: {x: 90.09, y: 3.6989994, z: 21.719997}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (9)
+    position: {x: 39.642, y: 2.7059994, z: -23.323}
+    rotation: {x: -0, y: -0.23839006, z: -0, w: 0.97116953}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_single (8)
+    position: {x: 12.730413, y: 1.7337246, z: -48.366238}
+    rotation: {x: -0, y: -0.10588447, z: -0, w: 0.99437845}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Palet_v1_single (6)
+    position: {x: 62.052418, y: 3.3817253, z: -33.317238}
+    rotation: {x: -0, y: 0.07188346, z: -0, w: 0.9974131}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1 (5)
+    position: {x: -27.462267, y: 0.42761993, z: 3.608574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Oil_tank_v1 (2)
+    position: {x: 73.40241, y: 5.295726, z: -43.928238}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (9)
+    position: {x: -29.15, y: 1.7299995, z: -43.068237}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (8)
+    position: {x: 76.224, y: 3.158, z: -7.153}
+    rotation: {x: -0, y: -0.22568534, z: -0, w: 0.9742003}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v1_column (1)
+    position: {x: 60.066006, y: 3.7399998, z: -47.309002}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (9)
+    position: {x: 74.244, y: 2.497717, z: -7.135}
+    rotation: {x: -0, y: 0.10711993, z: -0, w: 0.9942461}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 19.317732, y: 1.3739986, z: 5.1949997}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 19.31673, y: 1.8809986, z: 5.195999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Hangar_v1_full
+    position: {x: 7.9199996, y: 4.142617, z: -46.688236}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: aca7f32c011a3e44cb877ccaa92fa086, type: 2}
+    mesh: {fileID: 4300004, guid: 45fb212df42587744bd168b5d46c0910, type: 3}
+  - name: Road_set_v1_b_floor (11)
+    position: {x: 70.00131, y: 2.0917263, z: -15.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_block_v1 (4)
+    position: {x: -9.118, y: 0.4442196, z: -0.6899996}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Wooden_box_v1_LD1
+    position: {x: -10.806, y: 1.9639149, z: -23.45}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_lattice_S_half
+    position: {x: -13.014269, y: 3.3966198, z: -21.293427}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300030, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_S_half
+    position: {x: -13.014269, y: 2.9006195, z: -21.307426}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300028, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Palet_v1_set (7)
+    position: {x: 3.7077308, y: 0.6206207, z: 13.298574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000007, y: 1.0000006, z: 1.0000005}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1square (11)
+    position: {x: 31.461739, y: 2.0341415, z: -16.768}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_single (7)
+    position: {x: 12.767731, y: 1.7337246, z: -46.221424}
+    rotation: {x: -0, y: -0.021666901, z: -0, w: 0.9997653}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_s_bend_2
+    position: {x: 15.000401, y: -0.00029945374, z: -30.0002}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300076, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (5)
+    position: {x: -1.5499997, y: 1.7329998, z: 25.119}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Cargo_container_v1_LD2close (6)
+    position: {x: 52.350384, y: 6.58562, z: -43.745827}
+    rotation: {x: -0, y: -0.7070912, z: -0, w: 0.7071224}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 78.50973, y: 2.8936195, z: 17.731573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 78.50873, y: 3.4006195, z: 17.730574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Cargo_container_v1_LD2close (1)
+    position: {x: -14.279999, y: 3.1280003, z: -9.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Pipes_set_v1_vent_1 (5)
+    position: {x: 51.110004, y: 12.624, z: -56.592}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Electric_box_v2
+    position: {x: 10.453001, y: 2.6231632, z: -41.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9c5619fe582a6fd4a9e176b10cfb600d, type: 2}
+    mesh: {fileID: 4300002, guid: 5be67b90e3788794993aea72999671b3, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: 20.0509, y: 0.92700005, z: 0.00039958954}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: 25.221899, y: 1.6280003, z: 0.00039958954}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Cargo_container_v1_LD2close
+    position: {x: -14.08, y: 3.1281242, z: -6.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Hangar_v2_basic (4)
+    position: {x: -41.01227, y: 6.6956205, z: 28.898571}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Barrel_v1_LD1 (1)
+    position: {x: 24.83, y: 2.1431122, z: -9.897836}
+    rotation: {x: -0, y: -0.8981274, z: -0, w: 0.43973544}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: db7eb35339cc6e249a3b76684d621373, type: 2}
+    mesh: {fileID: 4300010, guid: ffd14148582c4f84f867ad56a7b3dafd, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (2)
+    position: {x: 37.14, y: 3.33, z: -51.953}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Road_set_v1_s_bend_1f
+    position: {x: 55.00073, y: 2.0916195, z: -0.0014266968}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300124, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1
+    position: {x: 55.00073, y: 1.9996204, z: -0.0014266968}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300122, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: 10.171801, y: 0.9272003, z: -20.222}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: 5.0008006, y: 1.6282005, z: -20.222}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Conditioner_v1 (3)
+    position: {x: 4.832414, y: 5.015726, z: -21.522236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Oil_tank_v2 (10)
+    position: {x: 94.17241, y: 4.6657257, z: -18.578236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Wooden_box_v1_LD1 (2)
+    position: {x: 39.50869, y: 1.9636402, z: -23.054993}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Hangar_v3_basic
+    position: {x: 46.782413, y: 6.75, z: 15.351765}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 04217182e1d62cf478028b88bd3f911d, type: 2}
+    mesh: {fileID: 4300006, guid: 165b285d8813c4b459ac04e83c94db1b, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 91.47573, y: 3.3446198, z: -46.788425}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 91.47473, y: 3.8516197, z: -46.789425}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (8)
+    position: {x: -29.15, y: 1.7299995, z: -3.0950003}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v1 (1)
+    position: {x: 36.94, y: 4.84, z: -43.59}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Wooden_box_v1_LD1square (22)
+    position: {x: -28.08227, y: 0.49761963, z: 2.028574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.9999997, y: 0.99999976, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1 (3)
+    position: {x: 18.770731, y: 0.42761993, z: 4.0745735}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.9999999, y: 1.0000002, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 7.977731, y: 1.3739986, z: 5.1949997}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 7.976731, y: 1.8809986, z: 5.195999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Wooden_box_v1_LD1square (18)
+    position: {x: 11.567732, y: 1.1576195, z: 10.758574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1 (4)
+    position: {x: 11.33773, y: 0.42761993, z: 10.478573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Cargo_container_v1_LD2close (8)
+    position: {x: 49.52773, y: 3.58562, z: -43.51143}
+    rotation: {x: -0, y: -0.69645625, z: -0, w: 0.7175993}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Concrete_fence_v2_Gate_lattice
+    position: {x: 61.476933, y: 3.4016209, z: 6.3787746}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300026, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_Gate
+    position: {x: 61.491932, y: 3.2336206, z: 6.386774}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300016, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Palet_v1_single (5)
+    position: {x: 64.76241, y: 2.2107258, z: -33.317238}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1square (17)
+    position: {x: 9.647732, y: 0.49761963, z: 10.258574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Oil_tank_v2 (9)
+    position: {x: 94.17241, y: 4.6657257, z: -10.668236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (6)
+    position: {x: 97.121, y: 3.67, z: -61.405003}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Hangar_v4 (2)
+    position: {x: 3.0024142, y: 8.065725, z: -71.72824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 55.81973, y: 2.8936195, z: 6.3905735}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 55.81873, y: 3.4006195, z: 6.391573}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Oil_tank_v1 (5)
+    position: {x: 87.70241, y: 5.295726, z: -74.90823}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Road_set_v1_s_tile_2 (5)
+    position: {x: -24.99827, y: -0.00037956238, z: -14.999426}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_b_floor (13)
+    position: {x: 90.00131, y: 2.091526, z: -35.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v1_column
+    position: {x: 10.16, y: 1.7399998, z: -35.11}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (24)
+    position: {x: 89.137726, y: 2.497717, z: -51.631428}
+    rotation: {x: -0, y: 0.6116984, z: -0, w: 0.79109114}
+    scale: {x: 1.0000005, y: 1, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (7)
+    position: {x: -29.15, y: 1.7299995, z: 15.496}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v2 (1)
+    position: {x: 47.250004, y: 4.2299995, z: -20.22}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Oil_tank_v2 (12)
+    position: {x: 23.757732, y: 2.6856194, z: 8.888573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Palet_v1_set (10)
+    position: {x: -24.392267, y: 0.6206207, z: 12.718573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 50.147, y: 2.8937244, z: -13.458236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 50.146, y: 3.4007244, z: -13.459236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Pipes_set_v1_V_set_v2 (3)
+    position: {x: 89.36, y: 4.8999996, z: -21.826}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300038, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (2)
+    position: {x: 69.69, y: 3.7399998, z: -5.0599995}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Palet_v1_set (2)
+    position: {x: 85.7615, y: 2.632433, z: -34.000565}
+    rotation: {x: -0, y: 0.027303224, z: -0, w: 0.99962723}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_block_v1 (3)
+    position: {x: -8.975208, y: 0.58399963, z: -3.1800003}
+    rotation: {x: 0.04741624, y: 0.7573607, z: 0.040694684, w: 0.65000033}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Hangar_v2_basic (1)
+    position: {x: 78.232414, y: 7.6157255, z: 30.421764}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Palet_v1_set (1)
+    position: {x: 8.892414, y: 2.1667252, z: -14.178236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_b_floor (15)
+    position: {x: 70.00131, y: 2.0917263, z: -75.098236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (7)
+    position: {x: 43.39773, y: 2.0341415, z: -8.535427}
+    rotation: {x: -0, y: 0.5726896, z: -0, w: 0.81977236}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_set (8)
+    position: {x: 13.49773, y: 0.6206207, z: 11.278574}
+    rotation: {x: -0, y: -0.26701757, z: -0, w: 0.9636917}
+    scale: {x: 1.0000007, y: 1.0000006, z: 1.0000005}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Conditioner_v1 (5)
+    position: {x: 60.060413, y: 9.165726, z: -15.878236}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 5549011eb0be2f44a8bd15f42714f6e3, type: 2}
+    mesh: {fileID: 4300002, guid: b096242168ee6ce4ca297701abcc3e14, type: 3}
+  - name: Industrial_pipe_v1 (4)
+    position: {x: 76.162415, y: 7.7675056, z: -59.80824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8290c716c91fee74faa2bd2490e059a5, type: 2}
+    mesh: {fileID: 4300002, guid: 5ffcfebba4a61b645bd4a65891ba6921, type: 3}
+  - name: Hangar_v2_basic (3)
+    position: {x: 54.012417, y: 8.1, z: -61.468235}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300004, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Pipes_set_v1_vent_1 (7)
+    position: {x: 28.73, y: 8.24, z: -14.54}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Pipes_set_v1_vent_2 (2)
+    position: {x: 61.993, y: 9.248, z: -54.524}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 78.50973, y: 2.8936195, z: 12.059574}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 78.50873, y: 3.4006195, z: 12.058575}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Palet_v1_set (3)
+    position: {x: -10.867586, y: 2.1667252, z: -15.458236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Wooden_box_v1_LD1square (8)
+    position: {x: 43.227, y: 2.7059994, z: -6.34}
+    rotation: {x: -0, y: -0.10671176, z: -0, w: 0.99429}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1square
+    position: {x: -12.111, y: 2.0344162, z: -23.121}
+    rotation: {x: -0, y: 0.07156921, z: -0, w: 0.9974357}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 63.114735, y: 3.3446198, z: -52.46043}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 63.113735, y: 3.8516197, z: -52.45943}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 50.147, y: 2.893999, z: -7.788236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 50.146, y: 3.400999, z: -7.789236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Road_set_v1_s_bend_1f
+    position: {x: -24.99827, y: 0.09161949, z: 0.00057315826}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300124, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_bend_1
+    position: {x: -24.99827, y: -0.00037956238, z: 0.00057315826}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300122, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (5)
+    position: {x: 59.046124, y: 3.158, z: -50.786274}
+    rotation: {x: -0, y: -0.35679278, z: -0, w: 0.93418354}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: 48.723995, y: 3.4019995, z: -23.401237}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: 48.857, y: 2.893999, z: -23.528236}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Pipes_set_v1_vent_2 (1)
+    position: {x: 42.35, y: 7.38, z: -9.317}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Pipes_set_v1_vent_1 (4)
+    position: {x: 59.38, y: 12.624, z: -56.592}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300026, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Road_set_v1_b_floor
+    position: {x: 0.0004143715, y: 0.09152603, z: 14.999464}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_floor (7)
+    position: {x: 5.0004, y: 0.09160042, z: -10.0005}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: UNIConcrete_wall_v1_W_end_2 (1)
+    position: {x: 5.171731, y: 0.92761993, z: -5.051427}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300046, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Cargo_container_v1_LD2close (5)
+    position: {x: -14.48, y: 6.1280003, z: -6.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Oil_tank_v1 (7)
+    position: {x: -43.242268, y: 3.2600002, z: 9.338573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (1)
+    position: {x: 59.94, y: 3.67, z: -76.03}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (16)
+    position: {x: 17.095732, y: 0.49761963, z: 4.4495735}
+    rotation: {x: -0, y: -0.13607617, z: -0, w: 0.9906984}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Oil_tank_v2 (3)
+    position: {x: 45.03, y: 4.2299995, z: -22.4}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Barrel_v1_LD1
+    position: {x: 38.276, y: 2.143139, z: -23.685}
+    rotation: {x: -0, y: -0.8981274, z: -0, w: 0.43973544}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: db7eb35339cc6e249a3b76684d621373, type: 2}
+    mesh: {fileID: 4300010, guid: ffd14148582c4f84f867ad56a7b3dafd, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: 67.16473, y: 2.8936195, z: 6.386574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: 67.16373, y: 3.4006195, z: 6.3875732}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Wooden_box_v1_LD1square (3)
+    position: {x: -11.914, y: 2.893999, z: -21.851}
+    rotation: {x: -0, y: -0.2335249, z: -0, w: 0.97235084}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Palet_v1_set (1)
+    position: {x: 61.497845, y: 2.632433, z: -50.888355}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: 10.1717, y: 0.9272003, z: -30.222}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: 5.0006995, y: 1.6282005, z: -30.222}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: -14.999599, y: 0.9272003, z: -5.0505}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: -14.999599, y: 1.6282005, z: -10.2215}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Barrel_v3_single (1)
+    position: {x: 49.222416, y: 2.5690975, z: 5.451763}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300004, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Hangar_v4 (3)
+    position: {x: -11.697586, y: 8.065725, z: -71.72824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Electric_box_v3 (1)
+    position: {x: 75.39, y: 3.1540003, z: 21.530003}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 84eeb742ea1c3a54599c3f405e69cbd3, type: 2}
+    mesh: {fileID: 4300002, guid: 6873b944fa309e04a9c369d12ad5592d, type: 3}
+  - name: Palet_v1_set (3)
+    position: {x: 72.347725, y: 2.6326332, z: -17.750092}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Concrete_fence_v1_s1
+    position: {x: 41.651, y: 3.5889597, z: 22.95457}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300032, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square
+    position: {x: 3.8991408, y: 2.034315, z: -21.109602}
+    rotation: {x: -0, y: 0.18234281, z: -0, w: 0.98323506}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1square (12)
+    position: {x: 31.461739, y: 2.8470001, z: -16.908}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (6)
+    position: {x: -20.179998, y: 1.7329998, z: 25.119}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Industrial_pipe_v1
+    position: {x: -35.609997, y: 7.7675056, z: -43.44}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8290c716c91fee74faa2bd2490e059a5, type: 2}
+    mesh: {fileID: 4300002, guid: 5ffcfebba4a61b645bd4a65891ba6921, type: 3}
+  - name: Object1040
+    position: {x: -7.5487523, y: 3.8343468, z: -26.844322}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 04217182e1d62cf478028b88bd3f911d, type: 2}
+    mesh: {fileID: 4300010, guid: 165b285d8813c4b459ac04e83c94db1b, type: 3}
+  - name: Object089
+    position: {x: 0.11468458, y: 4.967762, z: -16.811378}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 04217182e1d62cf478028b88bd3f911d, type: 2}
+    mesh: {fileID: 4300008, guid: 165b285d8813c4b459ac04e83c94db1b, type: 3}
+  - name: Object086
+    position: {x: 0.4616351, y: 6.3079166, z: -28.43668}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 04217182e1d62cf478028b88bd3f911d, type: 2}
+    mesh: {fileID: 4300006, guid: 165b285d8813c4b459ac04e83c94db1b, type: 3}
+  - name: Road_set_v1_s_floor (2)
+    position: {x: 35.2225, y: 1.6280003, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (23)
+    position: {x: 26.437733, y: 2.0341148, z: -24.401426}
+    rotation: {x: -0, y: 0.08799967, z: -0, w: 0.9961205}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Road_set_v1_b_floor (8)
+    position: {x: -9.999586, y: 1.6282253, z: -25.222036}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Road_set_v1_s_tile_2 (1)
+    position: {x: 15.000414, y: -0.0002746582, z: -15.000135}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (2)
+    position: {x: -11.812269, y: 2.893999, z: -22.913425}
+    rotation: {x: -0, y: -0.24198252, z: -0, w: 0.9702807}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Hangar_v2_outbuilding
+    position: {x: 96.13, y: 5.228731, z: -51.81}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+    mesh: {fileID: 4300006, guid: d0a6f0725fb579a45a39bf98830886a1, type: 3}
+  - name: Road_block_v1 (5)
+    position: {x: -8.842268, y: 0.4442196, z: 1.8485737}
+    rotation: {x: -0, y: 0.73159605, z: -0, w: 0.6817384}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Cargo_container_v1_LD2close (3)
+    position: {x: 82.637726, y: 6.592, z: -10.441426}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 5.317091, y: 2.3187256, z: -35.317856}
+    rotation: {x: -0, y: 0.726483, z: -0, w: 0.6871845}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Industrial_pipe_v1 (3)
+    position: {x: 82.052414, y: 7.7675056, z: -59.80824}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8290c716c91fee74faa2bd2490e059a5, type: 2}
+    mesh: {fileID: 4300002, guid: 5ffcfebba4a61b645bd4a65891ba6921, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: 77.09273, y: 3.40162, z: 7.797575}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: 77.22573, y: 2.8936195, z: 7.670574}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Pipes_set_v1_H_set_v2 (2)
+    position: {x: 34.827732, y: 4.1499996, z: -36.76143}
+    rotation: {x: -0, y: -0.043676, z: -0, w: 0.9990458}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300042, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Concrete_fence_v1_column
+    position: {x: 60.066006, y: 3.7399998, z: -42.09}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300018, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: 28.865131, y: 3.4020205, z: -23.391626}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: 28.738132, y: 2.89402, z: -23.524628}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_2
+    position: {x: 32.72273, y: 0.9266205, z: -25.170425}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300042, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: -14.708269, y: 1.3739986, z: 5.1945744}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: -14.709269, y: 1.8809986, z: 5.195574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Palet_v1_single (1)
+    position: {x: 8.942413, y: 1.7337246, z: -16.498236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 62.04247, y: 3.9667253, z: -33.306854}
+    rotation: {x: -0, y: 0.076866865, z: -0, w: 0.9970414}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 8.932415, y: 2.3187256, z: -16.518236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Palet_v1_single (2)
+    position: {x: 5.3234143, y: 1.7337246, z: -35.307236}
+    rotation: {x: -0, y: -0.7115718, z: -0, w: 0.7026135}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300004, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (1)
+    position: {x: 60.066006, y: 3.7399998, z: -32.45}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Hangar_v4 (9)
+    position: {x: -23.097586, y: 6.5257263, z: 42.091763}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 80862cc9f0fa8244dabb1d398ece476a, type: 2}
+    mesh: {fileID: 4300004, guid: b9f252f86d956df43b2de8e7e4457ea7, type: 3}
+  - name: Wooden_box_v1_LD1 (1)
+    position: {x: 43.316, y: 1.9636402, z: -6.17}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300008, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Road_set_v1_b_floor (3)
+    position: {x: 30.000216, y: 1.6281261, z: -45.221935}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Wooden_box_v1_LD1square (2)
+    position: {x: -9.206526, y: 2.034315, z: -7.542348}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Wooden_box_v1_LD1square (19)
+    position: {x: 12.397732, y: 0.49761963, z: 9.468573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (4)
+    position: {x: 97.121, y: 3.67, z: -75.37001}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (3)
+    position: {x: 88.31, y: 3.7399998, z: -5.0599995}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Wooden_box_v1_LD1square (4)
+    position: {x: 59.07197, y: 2.497717, z: -48.801655}
+    rotation: {x: -0, y: 0.20292538, z: -0, w: 0.9791943}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Road_set_v1_b_floor (2)
+    position: {x: 10.000214, y: 1.6281261, z: -45.221935}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Concrete_fence_v2_lattice_L
+    position: {x: -11.603998, y: 3.4089994, z: -24.145}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300014, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_L
+    position: {x: -11.730999, y: 2.900999, z: -24.278}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300010, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1
+    position: {x: 64.61, y: 3.7399998, z: 25.119999}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Oil_tank_v2 (13)
+    position: {x: 23.757732, y: 2.6856194, z: 11.138573}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Pipes_set_v1_vent_2 (4)
+    position: {x: 46.05, y: 6.252, z: 9.445999}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 95f35bc55e58b884d8bcb1195b26fe11, type: 2}
+    mesh: {fileID: 4300020, guid: 993e7ae5872aa394c80c399e077992bf, type: 3}
+  - name: Road_set_v1_b_floor (19)
+    position: {x: -10.002268, y: 1.6256199, z: -45.221424}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300084, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Dumpsters_v1_garbadge
+    position: {x: 69.65, y: 2.8981018, z: 10.126999}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 3f513b9c59aff4f409bf303083c4a25e, type: 2}
+    mesh: {fileID: 4300006, guid: e3be5b0626d16304eb988d7565f17bc5, type: 3}
+  - name: UNIConcrete_wall_v1_W_tile_1
+    position: {x: -4.9996, y: 0.9272003, z: -5.0506}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4b2c2bed67203ed45aa381875cc556bb, type: 2}
+    mesh: {fileID: 4300056, guid: c6d026d6367d43a438c71a59c9da8290, type: 3}
+  - name: Road_set_v1_s_floor
+    position: {x: -4.9996, y: 1.6282005, z: -10.221601}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Oil_tank_v2 (4)
+    position: {x: 42.96, y: 4.2299995, z: -22.4}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Concrete_fence_v2_S
+    position: {x: -9.036268, y: 1.3739986, z: 5.1945744}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 9d41c32f719dc4b47bd0cbe39860bdae, type: 2}
+    mesh: {fileID: 4300008, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Concrete_fence_v2_lattice_S
+    position: {x: -9.037268, y: 1.8809986, z: 5.195574}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 666d0826bcae23540ad89fb826867c32, type: 2}
+    mesh: {fileID: 4300012, guid: ed9ec036e5afbd34dae4f1602a3d77b8, type: 3}
+  - name: Palet_v1_set
+    position: {x: 67.29512, y: 2.632433, z: -33.271294}
+    rotation: {x: -0, y: -0.14369318, z: -0, w: 0.9896223}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Cargo_container_v1_LD2close (7)
+    position: {x: 52.648434, y: 3.58562, z: -43.779995}
+    rotation: {x: -0, y: -0.7070912, z: -0, w: 0.7071224}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Road_set_v1_s_floor (6)
+    position: {x: 45.22273, y: 1.6280003, z: 0.0001001358}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300066, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Palet_v1_set (6)
+    position: {x: 53.640003, y: 2.632635, z: 21.140354}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Oil_tank_v1 (3)
+    position: {x: 9.470001, y: 3.2600002, z: 16.26}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Oil_tank_v2 (6)
+    position: {x: 40.94, y: 4.2299995, z: -20.22}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8b1a5387e6ed41c4f926b0d04df05a09, type: 2}
+    mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 62.919025, y: 2.7957249, z: -33.33454}
+    rotation: {x: -0, y: -0.6617874, z: -0, w: 0.74969155}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Concrete_fence_v1_wall_set_v1 (8)
+    position: {x: 100.21473, y: 3.67, z: -47.771427}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300036, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Cargo_container_v1_LD2close
+    position: {x: 82.4685, y: 3.592, z: -9.961427}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Concrete_fence_v1_wall_set_v2 (2)
+    position: {x: 69.55, y: 3.67, z: -85}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: acd39752d1464d2409980e4ae106b986, type: 2}
+    mesh: {fileID: 4300038, guid: 3a8f58244ff42dd4687b2e136c464c50, type: 3}
+  - name: Road_block_v1 (1)
+    position: {x: 73.93673, y: 2.444189, z: -0.35999966}
+    rotation: {x: -0, y: -0.78726894, z: -0, w: 0.6166098}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 2d466dac55e3cd54ba41e1af2e5e0b6c, type: 2}
+    mesh: {fileID: 4300002, guid: 80030beb64998ca41b76b2ccf9866276, type: 3}
+  - name: Cargo_container_v1_LD2close (2)
+    position: {x: -14.039999, y: 3.1280003, z: -12.77}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 725065c3e256d624785aad798a8d0762, type: 2}
+    mesh: {fileID: 4300022, guid: 856f086268c2c1b4f8f1d4b9bc614217, type: 3}
+  - name: Wooden_box_v1_LD1square (7)
+    position: {x: 76.694, y: 2.497717, z: -8.613}
+    rotation: {x: -0, y: 0.123628125, z: -0, w: 0.99232864}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 1a087c65608607042accf116f4319d39, type: 2}
+    mesh: {fileID: 4300012, guid: dcf39c3c160b51b49af399efea061f40, type: 3}
+  - name: Road_set_v1_s_tile_2
+    position: {x: 0.0017313957, y: -0.00037956238, z: -0.00042629242}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Palet_v1_set (2)
+    position: {x: 48.477734, y: 2.1688595, z: -14.961427}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 4a8145f028f3ea948a65028b51474a3f, type: 2}
+    mesh: {fileID: 4300006, guid: a0fa3deee73af2b49bf7f84e4421e5be, type: 3}
+  - name: Road_set_v1_s_tile_2 (7)
+    position: {x: -24.99827, y: -0.00037956238, z: -54.999424}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8d5d2d46a0146fa4c86ae0c056e3282d, type: 2}
+    mesh: {fileID: 4300068, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
+  - name: Barrel_v3_quadro
+    position: {x: 61.310413, y: 2.7957249, z: -33.327236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: f15201246572bdb49bcb3594bf3000f3, type: 2}
+    mesh: {fileID: 4300006, guid: 8bf7537d27999d4448c4145cad1f47e7, type: 3}
+  - name: Oil_tank_v1 (6)
+    position: {x: 73.50241, y: 5.295726, z: -74.90823}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 8573c79e2e3e6c14c8dc545c942c8a60, type: 2}
+    mesh: {fileID: 4300002, guid: f0722bb0f9795f24eb2e7c82f55738a6, type: 3}
+  - name: Road_set_v1_road_up_2m_HD_f (1)
+    position: {x: 30.0004, y: 1.0916996, z: -50.000103}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    scale: {x: 1, y: 1, z: 1}
+    material: {fileID: 2100000, guid: 999517f045d65924db469ec2a4a5c833, type: 2}
+    mesh: {fileID: 4300102, guid: c7f7a9ec09a97d144963b6dd16448dc3, type: 3}
